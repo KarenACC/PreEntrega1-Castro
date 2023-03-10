@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.433);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+body{
+    width: 100%;
+    height: 1800px;
+    background-image: url('./assets/img/butacas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header img{
+    width: 100x;
+    height: 100%;
+    margin-left: 50px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+header ul a{
+    text-decoration: none;
+}
+
+header ul li{
+    margin-left: 20px;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+}
+
+.precios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.433);
+    color: white;
+}
+
+.precios h3 {
+    font-size: 40px;
+    margin-right: 300px;
+}
+
+.precios ul{
+    display: flex;
+    list-style: none;
+    
+}
+.precios ul li{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.destacada{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.433);
+}
+
+.destacada img{
+    height: 100%;
+}
