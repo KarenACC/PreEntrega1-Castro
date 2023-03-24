@@ -49,10 +49,11 @@ header ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: auto;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.433);
     color: white;
+    margin-bottom:30px ;
 }
 
 .precios h3 {
@@ -81,4 +82,31 @@ header ul li{
 
 .destacada img{
     height: 100%;
+}
+
+.cartelera-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.433);
+    color: white;
+    margin-bottom:30px ;
+    font-size: 35px;
+}
+
+.cartelera-container h2 {
+    margin-bottom: 40px;
+}
+
+.posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.posters img{
+    margin: 10px;
 }
