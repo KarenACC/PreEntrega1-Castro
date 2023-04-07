@@ -4,6 +4,20 @@
     font-family: 'Bebas Neue', cursive;
 font-family: 'Raleway', sans-serif;
 }
+.btn{
+    padding: 10px 30px;
+    background-color: rgb(153, 39, 39);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+table thead{
+    background-color: rgb(153, 39, 39);}
+table tbody{
+    background: rgba(135, 129, 129, 0.336);
+}
 header{
     display: flex;
     width: 100%;
@@ -83,6 +97,23 @@ header ul li{
 .destacada img{
     height: 100%;
 }
+.boletos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.433);
+    color: white;
+    margin-bottom:30px ;
+    font-size: 35px;
+    height: 500px;
+}
+
+.boletos-container h2 {
+    margin-bottom: 40px;
+}
 
 .cartelera-container {
     display: flex;
@@ -109,4 +140,58 @@ header ul li{
 
 .posters img{
     margin: 10px;
+}
+
+/* AQUI EMPIEZAN ESTILOS DE CARD */
+
+#listaPeliculas{
+    margin-top: 100px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 40px 0px;
+    background: rgb(20, 9, 9);
+    margin-left: 30px;
+}
+
+.card .card-img{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-img img{
+    height: 100%;  
+} 
+
+.card .card-info{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding: 0px 10px;
+    color: white;
+    overflow-y: scroll;
+    font-size: 15px;
+}
+.card .card-button{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    align-items:end;
+}
+.card button{
+    background-color: rgb(153, 39, 39);
+    margin: 10px 10px;
+    padding: 5px;
+    color: white;
+ 
 }
